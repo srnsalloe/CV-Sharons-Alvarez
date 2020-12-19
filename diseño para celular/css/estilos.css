@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap');
+
+:root{
+    --color-primario: #000000;
+    --color-secundario: #fff;
+    font-family: 'Playfair Display', serif;
+
+}
+body {
+    background: url(../img/fondo.pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.menu {
+    font-size: 60px;
+    color: rgba(27, 26, 26, 0.74);
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+.contenedor .foto-perfil {
+    border-radius: 50%;
+    width: 180px;
+}
+.contenedor .detalle {
+    text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.contenedor .detalle .titulo {
+    color: #ffffff;
+    font-size: 30px;
+}
+.contenedor .detalle .descripcion {
+    color: #ffffff;
+    font-size: 20px;
+}
+.contenedor .detalle .info {
+    color: #000;
+    font-size: 12px;
+}
+
+.gradient-buttons .btn {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.2) 49%,
+        rgba(0, 0, 0, 0.15) 51%,
+        rgba(0, 0, 0, 0.05)
+    );
+    background-repeat: repeat-x;
+}
+
+.rrss {
+    padding-top: 16px;
+    font-size: 50px;
+    color: var(--color-primario);
+}
+
+.logo_sin_borde{
+    text-decoration: none;
+}
+
+.facebook {
+    color: #083cac;
+    text-transform: none;
+}
+
+.facebook:hover{
+    color: var(--color-primario);
+}
+
+.instagram {
+    color: #e1306c;
+    text-transform: none;
+}
+
+.instagram:hover{
+    color: var(--color-primario);
+}
+
+.whatsapp {
+    color: #3cbb09;
+    text-transform: none;
+}
+
+.whatsapp:hover{
+    color: var(--color-primario);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+}
+footer p {
+    text-align: center;
+    color: #7e7e7e;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
